@@ -42,7 +42,7 @@ export default function CalcGorjeta() {
                                         </Typography>
                                     </Grid>
                                 </Grid>
-                                <Button variant="contained" onClick={() => setValor(parseFloat(comanda)+parseFloat(gorjeta))}>Calcular</Button>
+                                <Button variant="contained" onClick={() => setValor((parseFloat(comanda)+parseFloat(gorjeta)).toFixed(2))}>Calcular</Button>
                             </CardContent>
                         </Card>
                     </Grid>
