@@ -18,8 +18,7 @@ export default function CalcGorjeta() {
     //função para impedir a entrada de numeros negativos, tornando eles 0
     //caso sejam digitados
     const numberNegative = (e, set) => {
-        isNaN(e.target.value) ? set(0) :
-        (e.target.value < 0 ? e.target.value = 0 : set(e.target.value))
+        (isNaN(e.target.value) || e.target.value < 0) ? e.target.value = 0  : set(e.target.value)
     }
 
     return (
