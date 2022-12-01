@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    left: -225px;
+    transition: all 0.6s;
+}
+
+.calc_exibir {
+    left: 0px !important;
+    transition: all 0.6s;
+}
+
+#calc_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    border: 3px solid rgb(42, 42, 42);
+    width: 230px;
+    border-radius: 10px;
+}
+
+/* TITULO */
+.nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.teclas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+.tecla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178, 172, 172);
+    border: 3px solid rgb(52, 52, 52);
+    font-weight: bold;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.tecla_op {
+    background-color: rgb(241, 112, 112) !important;
+    border-color: rgb(52, 52, 52) !important;
+}
+
+/* DSIPLAY */
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+}
+
+#mostrador {
+    width: 200px;
+    background-color: rgb(59, 165, 59);
+    text-align: right;
+    padding: 3px;
+    font-family: monospace;
+    font-size: larger;
+    height: 25px;
+    text-overflow: clip;
+}
+
+.aba_calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 50px;
+    background-color: rgb(42, 42, 42);
+    border: 3px solid rgb(42, 42, 42);
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+    color: white;
+}
