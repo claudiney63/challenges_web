@@ -1,0 +1,58 @@
+#container {
+    height: 180px;
+    width: 250px;
+    background-color: rgb(149, 142, 142);
+    border-radius: 15px;
+    margin: 13% auto;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+p {
+    margin: 0px;
+}
+
+#data {
+    display: flex;
+    justify-content: center;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+
+#horas {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 0);
+    font-size: larger;
+    border-radius: 20px;
+    width: 120px;
+    padding: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+button {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.alarme_ativado {
+    background-color: rgb(224, 103, 103) !important;
+}
