@@ -1,0 +1,61 @@
+* {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.controles {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(190, 190, 190);
+}
+
+.controle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+    border: 2px solid rgb(81, 81, 81);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(104, 104, 104);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type = 'number'], #num_objetos {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.palco {
+    display: flex;
+    width: 100%;
+    min-height: -webkit-fill-available;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: absolute;
+    overflow: hidden;
+}
+
+.bola {
+    position: absolute;
+    border-radius: 100px;
+}
