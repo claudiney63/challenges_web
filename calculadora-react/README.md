@@ -1,4 +1,4 @@
-## Exercicio de uma Calculadora
+## Exercicio Pratico de uma Calculadora
 
 -- Praticando programação react criando uma calculadora simples
 
